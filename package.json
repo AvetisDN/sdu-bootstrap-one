@@ -1,0 +1,34 @@
+{
+  "name": "sdu-webstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --mode=development",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^8.0.0",
+    "css-loader": "^5.1.1",
+    "exports-loader": "^2.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.2.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^5.1.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2"
+  }
+}
